@@ -1,0 +1,39 @@
+.checkout {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: white;
+    padding: 1.5rem;
+}
+
+
+.checkout__left {
+    grid-column: span 2;
+}
+
+
+.checkout__title {
+    padding: 1rem;
+    border-bottom: 1px solid lightgray;
+}
+
+.checkout__right {
+    width: 20rem;
+    height: 7rem;
+    padding: 1rem;
+    margin: 5rem 1rem;
+    background-color: rgb(219, 218, 218);
+    border-radius: .25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+
+
+.checkout__button {
+    background-color: #FFCA44;
+    border: 1px solid #665019;
+    width: 100%;
+    padding: .3em;
+}
